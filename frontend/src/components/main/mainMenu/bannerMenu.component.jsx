@@ -3,16 +3,16 @@ import { Carousel } from 'react-responsive-carousel';
 
 const BannerMenu = () => {
     return (
-        <Carousel className="banner-menu w-[85%]" showArrows={true} showStatus={false} infiniteLoop={true} showThumbs={false} 
-        autoPlay={true} stopOnHover={false} interval={3000} transitionTime={500} swipeable={true} emulateTouch={true}>
-            <div className="w-full h-[450px]">
-                <img className="w-full" alt="test" src="https://images.unsplash.com/photo-1506423029067-1b8b62b68717?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1296&q=80" />
+        <Carousel className="banner-menu w-full custom:w-[80%]" showArrows={true} showStatus={false} infiniteLoop={true} showThumbs={false} 
+        autoPlay={false} stopOnHover={false} interval={3000} transitionTime={500} swipeable={true} emulateTouch={true}>
+            <div className="banner-image-carousel h-[350px] custom:h-[450px]">
+                <img className="w-full h-[350px] custom:h-[450px]" alt="test" src="https://assets.visme.co/templates/banners/thumbnails/i_Save-the-Creature-Facebook-Cover_full.jpg" />
             </div>
-            <div className="h-[450px]">
-                <img className="w-[200px]" alt="test" src="https://images.unsplash.com/photo-1505495142263-9357db572571?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
+            <div className="banner-image-carousel h-[350px] custom:h-[450px]">
+                <img className="w-full h-[350px] custom:h-[450px]" alt="test" src="https://assets.visme.co/templates/banners/thumbnails/i_Music-Conservatory-Facebook-Cover_full.jpg" />
             </div>
-            <div className="w-full h-[450px]">
-                <img className="w-[200px]" alt="test" src="https://images.unsplash.com/photo-1505247917671-78b7075b41a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
+            <div className="banner-image-carousel h-[350px] custom:h-[450px]">
+                <img className="w-full h-[350px] custom:h-[450px]" alt="test" src="https://assets.visme.co/templates/banners/94/c7/42/d0/1ea12e6ea2ec611aeb29d008716449ea.jpg" />
             </div>
         </Carousel>
     );
