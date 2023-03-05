@@ -2,12 +2,28 @@
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
+  text-decoration: none;
+  list-style: none;
 }
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  .nav-menu-list li {
+    @apply w-full;
+    @apply py-2;
+    @apply font-semibold;
+    @apply cursor-pointer;
+    @apply text-center;
+    @apply border-gray-400;
+    @apply border-y-2;
+    @apply border-opacity-0;
+    @apply hover:border-opacity-100;
+    @apply bg-rose-400;
+  }
+}
 
 .css-3d-text {
   color: #f1e8e8;
@@ -20,3 +36,4 @@
                4px 4px 1px rgba(26,197,235,0.5),
                0px 0px 3px rgba(26,197,235,.2);
 }
+
