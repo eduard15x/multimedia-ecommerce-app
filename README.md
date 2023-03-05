@@ -9,6 +9,9 @@ https://tailwindcss.com/docs/guides/create-react-app
 -add react-icons
 https://react-icons.github.io/react-icons/
 
+-add react-responsive-carousel
+http://react-responsive-carousel.js.org/
+
 sm: (640px)
 md: (768px)
 lg: (1024px)
